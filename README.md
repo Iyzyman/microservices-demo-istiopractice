@@ -42,7 +42,7 @@ To set up a service mesh and enhance observability, follow these steps to instal
 
 1. Create a new project/namespace called `istio-system`.
 
-   ![Istio System](images/istio_mesh.png)
+   ![Istio System](images/istio_mesh.jpg)
 
 2. Navigate to the service mesh operator in the `istio-system` project and create a new Istio Service Mesh Control Plane using the provided YAML code.
 
