@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Route
+metadata:
+  name: istio-demo
+spec:
+  host: istio-demo.apps.<subdomain_of_your_openshift_cluster>
+  port:
+    targetPort: http2
+  to:
+    kind: Service
+    name: istio-ingressgateway
+    weight: 100
+  wildcardPolicy: None

@@ -1,0 +1,15 @@
+apiVersion: networking.istio.io/v1beta1
+kind: Gateway
+metadata:
+  name: istio-gateway
+  namespace: istio-system
+spec:
+  selector:
+    istio: ingressgateway
+  servers:
+  - hosts:
+    - '*.apps.<subdomain_of_your_openshift_cluster>'
+    port:
+      name: http2
+      number: 80
+      protocol: HTTP
