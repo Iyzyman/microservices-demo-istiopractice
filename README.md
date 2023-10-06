@@ -164,7 +164,7 @@ spec:
     istio: ingressgateway
   servers:
   - hosts:
-    - '*.apps.<subdomain_of_your_openshift_cluster>’
+    - '*.apps.<subdomain_of_your_openshift_cluster>'
     port:
       name: http2
       number: 80
