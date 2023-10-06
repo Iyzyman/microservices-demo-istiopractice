@@ -1,7 +1,12 @@
-# Deploying Microservices on OpenShift with Istio Service Mesh
+# Introduction
+This repository was forked from [GoogleCloudPlatform/microservices-demo](https://github.com/GoogleCloudPlatform/microservices-demo). 
 
-This repository was forked from [GoogleCloudPlatform/microservices-demo](https://github.com/GoogleCloudPlatform/microservices-demo). It was created to explore microservices, container networking, and Istio service mesh on the OpenShift platform.
+Thie repo was created for me to explore microservices, container networking, and Istio service mesh on the OpenShift platform.
+Below, you'll find a comprehensive overview of the steps I followed to incorporate Istio Service Mesh into this microservices application, which has been transformed into a practical guide for your reference 
 
+In this guide, you'll find step-by-step instructions to set up and configure Istio Service Mesh on OpenShift.
+
+All the yaml code in this guide can be found in the openshift folder in this repository
 ## Prerequisites
 
 Before you begin, ensure you have the following prerequisites:
@@ -87,6 +92,7 @@ Run
     oc get pods  
 ```
 on your istio-system project this is what it should look like this
+
 ![My Image](images/pods.png)
 
 ## Deploying the Microservices Containers
