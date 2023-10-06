@@ -181,7 +181,7 @@ spec:
   gateways:
   - istio-system/istio-gateway
   hosts:
-  - istio-demo.apps. .<subdomain_of_your_openshift_cluster>
+  - istio-demo.apps.<subdomain_of_your_openshift_cluster>
   http:
   - route:
     - destination:
