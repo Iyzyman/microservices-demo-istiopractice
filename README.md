@@ -1,7 +1,8 @@
 # Introduction
 This repository was forked from [GoogleCloudPlatform/microservices-demo](https://github.com/GoogleCloudPlatform/microservices-demo). 
 
-Thie repo was created for me to explore microservices, container networking, and Istio service mesh on the OpenShift platform.
+This repo was created for me to explore microservices, container networking, and Istio service mesh on the OpenShift platform.
+The steps differ from the original repository as that was done in the GCP Kubernetes environment, this will be in OpenShift
 Below, you'll find a comprehensive overview of the steps I followed to incorporate Istio Service Mesh into this microservices application, which has been transformed into a practical guide for your reference 
 
 In this guide, you'll find step-by-step instructions to set up and configure Istio Service Mesh on OpenShift.
