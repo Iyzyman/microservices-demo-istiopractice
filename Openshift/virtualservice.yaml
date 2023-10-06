@@ -7,7 +7,7 @@ spec:
   gateways:
   - istio-system/istio-gateway
   hosts:
-  - frontend.apps.861af8397f.ccsd.ipz001.internal.bosch.cloud
+  - istio-demo.apps.861af8397f.ccsd.ipz001.internal.bosch.cloud
   http:
   - route:
     - destination:
